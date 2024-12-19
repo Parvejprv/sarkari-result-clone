@@ -1,0 +1,33 @@
+/* container section */
+
+.answer-key-container {
+  margin: 100px auto;
+  width: 900px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows:45px auto 100px;
+
+  /* background-color: lightblue; */
+  border: 1px solid #ab183d;
+}
+.answer-key-container .card-item {
+
+}
+.answer-key-container .answer-key {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: auto;
+}
+.answer-key-container .answer-key .title {
+  height: 40px;
+  background-color: #ab183d;
+  font-size: 18px;
+  color: #fff;
+}
+.answer-key-container .answer-key .content {
+  text-align: start;
+  padding: 0 50px;
+}

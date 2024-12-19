@@ -1,0 +1,66 @@
+.footer-container {
+  margin: 0;
+  padding: 0;
+  width: 1010px;
+
+  display: grid;
+  grid-template-columns: 300px 200px 500px;
+  grid-template-rows: 1fr;
+
+  grid-gap: 20px;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.ft1 {
+  /* background-color: aqua; */
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto;
+}
+.ft2 {
+  /* background-color: lightcoral; */
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto;
+}
+.ft3 {
+  /* background-color: lightgreen; */
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto;
+}
+.ft-title, .app-title, .more-title {
+  padding-left: 20px;
+  height: 50px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}   
+.ft-content, .app-content, .more-content {
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+} 
+.ft-content a, .app-content a, .more-content a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}  
+.more-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.more-content .more {
+  padding: 0;
+}

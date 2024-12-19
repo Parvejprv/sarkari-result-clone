@@ -1,0 +1,65 @@
+/* container section */
+
+/* .latest-job-container {
+  margin: 100px auto;
+  width: 900px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows:45px auto 100px;
+
+  border: 1px solid #ab183d;
+}
+.latest-job-container .latest-job {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: auto;
+}
+.latest-job-container .latest-job .title {
+  text-align: center;
+  height: 40px;
+  background-color: #ab183d;
+  font-size: 18px;
+  color: #fff;
+}
+.latest-job-container .latest-job .content {
+  text-align: start;
+  padding: 0 50px;
+} */
+
+
+
+/* container section */
+
+.latest-job-container {
+  margin: 100px auto;
+  width: 900px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows:45px auto 100px;
+
+  /* background-color: lightblue; */
+  border: 1px solid #ab183d;
+}
+.latest-job-container .latest-job {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: auto;
+}
+.latest-job-container  div.title {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ab183d;
+  font-size: 18px;
+  color: #fff;
+}
+.latest-job-container .latest-job .content {
+  text-align: start;
+  padding: 0 50px;
+}

@@ -1,0 +1,386 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header, #marquee1 {
+  width: auto;
+  max-width: 1010px;
+}
+
+
+#header {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 150px;
+  /* width: 960px; */
+  width: 1010px;
+  max-width: 1010px;
+  min-height: 175px;
+  background-color: #ab183d;
+  border: none;
+  margin-top: 5px;
+}
+.site-logo {
+  padding: 20px 0;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-logo img {
+  /* height: 150px;
+  width: 149px; */
+  object-fit: cover;
+}
+.site-title {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-title .site {
+  width: 100%;
+  text-align: center;
+}
+.site-title .site h1 {
+  color: #fff;
+  font-size: 2.6vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.site-url h4 {
+  color: #fff;
+}
+.site-url h4 a {
+  text-decoration: none;
+}
+.site-url h4 b {
+  color: #fff;
+  font-size: 1.1vw;
+  text-decoration-line: underline;
+  text-decoration-style:dotted;
+}
+
+#wrap {
+  background-color: aqua;
+  height: 50px;
+  width: 1010px;
+  max-width: 1010px;
+  margin: 0;
+  z-index: 99;
+  position: relative;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  max-width: 1010px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.navbar li {
+  height: 50px;
+  width: 123px;
+  text-align: center;
+  list-style: none;
+  background-color: #000;
+  border-right: 1px solid #fff;
+  line-height: 50px;
+}
+.navbar li:last-child {
+  border-right: none;
+}
+.navbar li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Arial, Verdana, Helvetica;
+  text-decoration: none;
+}
+
+.marquee-content {
+  margin: 100px auto;
+  width: 1010px;
+  /* margin: 100px 0px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.marquee-content a {
+  color: blue;
+  font-size: 18px;
+  font-weight: 600;
+}
+.marquee-content .items, .marquee-content .item {
+  width: 100%;
+  padding: 0 10px;
+  color: #636363;
+  text-align: center;
+}
+
+.marquee-content .items a {
+  color: blue;
+  font-size: 18px;
+  font-weight: 600;
+}
+.marquee-content .item {
+  width: 100%;
+  padding:0px 10px;
+}
+
+/* conainer0 */
+.container0 {
+  margin: auto;
+  height: 160px;
+  width: 1010px;
+  margin-bottom: 50px;
+  /* background-color: lightblue; */
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: 75px 75px; */
+  grid-template-rows: 75px 75px;
+
+  grid-gap: 5px;
+
+}
+
+.container0 .item {
+  /* height: 100px;
+  width: 100px; */
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.5vw;
+}
+
+.container0 .item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.container0 .item1 {
+  background-color: #868A08;
+}
+.container0 .item2 {
+  background-color: navy;
+}
+.container0 .item3 {
+  background-color: orange;
+}
+.container0 .item4 {
+  background-color: maroon;
+}
+.container0 .item5 {
+  background-color: red;
+}
+.container0 .item6 {
+  background-color: green;
+}
+.container0 .item7 {
+  background-color: hotpink;
+}
+.container0 .item8 {
+  background-color: #0080FF;
+}
+
+
+/* Links container */
+.container {
+  margin: auto;
+  /* background-color: red; */
+  height: 400px;
+  width: 1010px;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  grid-gap: 1vw;
+}
+
+
+.result, 
+.admit-card, 
+.latest-jobs,
+.answer-key,
+.syllabus,
+.admission, 
+.certificate-verification, 
+.important,
+.summary {
+  /* background-color: lightblue; */
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ab183d;
+}
+.result .title,
+.admit-card .title,
+.latest-jobs .title,
+.answer-key .title,
+.syllabus .title,
+.admission .title,
+.certificate-verification .title,
+.important .title
+{
+  height: 40px;
+  /* color: #fff;
+  font-size: 18px; */
+  /* font-weight: 600; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ab183d;
+}
+.result .title, a, 
+.admit-card .title, a,
+.latest-jobs .title, a,
+.answer-key .title, a,
+.syllabus .title, a,
+.admission .title, a,
+.certificate-verification .title, a,
+.important .title, a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.content {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr), 30px;
+}
+.content ul li {
+  list-style-position: inside;
+  padding: .5vw 1vw;
+  /* text-align: justify; */
+}
+.content ul li a {
+  font-size: 14px;
+  color: blue;
+}
+
+.admit-card {
+  border: 1px solid rgb(165, 0, 0);
+}
+.latest-jobs {
+  border: 1px solid rgb(165, 0, 0);
+}
+.answer-key {
+  border: 1px solid rgb(165, 0, 0);
+}
+.syllabus {
+  border: 1px solid rgb(165, 0, 0);
+}
+.admission {
+  border: 1px solid rgb(165, 0, 0);
+  /* to span the column or row we need to specify the grid-cloumn-start & grid-column-end property for the column, and for the row we need to specify the grid-row-star & grid-row-end property */
+
+  /* grid-row-start: 2;
+  grid-row-end: 4; */
+
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+
+}
+.certificate-verification {
+  border: 1px solid rgb(165, 0, 0);
+}
+.important {
+  border: 1px solid rgb(165, 0, 0);
+}
+
+.view-more {
+  height: 40px;
+  /* background-color: lightpink; */
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  padding-right: 3.5vw;
+}
+.view-more a {
+  text-decoration: none;
+  color: #0000b8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* summary-about-site section */
+.summary-about-site {
+  padding: 0vw 1vw;
+  margin: 100px 0px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  text-align: center;
+
+  border: 1px solid #ab183d;
+  display: grid;
+  /* Let span this section */
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+
+  grid-column: 1 / 4;
+}
+
+.summary-about-site .title
+{
+  padding: 2vw 2vw;
+  height: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ab183d;
+  margin: 1vw 0;
+}
+/* Links container  ends!*/
+
+
+.copyright {
+  margin: auto;
+  width: 1010px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px;
+
+  /* grid-spanning column wise */
+  grid-column: 1 / 4;
+}
+
+.copyright .copyright-content {
+  padding: .8vw 2vw;
+  background-color: orange;
+}
+

@@ -1,0 +1,27 @@
+/* container section */
+.latest-results-container {
+  margin: 100px auto;
+  width: 1010px;
+
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-column-gap: 20px;
+}
+
+.item {
+  width: 100%;
+}
+.latest-results-container .result {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:45px auto;
+}
+/* Currently not in used */
+.latest-results-container #result {
+  display: none;
+}
+
+.latest-results-container .result .content {
+  padding: 0 10px;;
+  text-align: start;
+}

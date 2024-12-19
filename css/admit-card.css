@@ -1,0 +1,30 @@
+/* container section */
+
+.admit-card-container {
+  margin: 100px auto;
+  width: 900px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows:45px auto 100px;
+
+  /* background-color: lightblue; */
+  border: 1px solid #ab183d;
+}
+.admit-card-container .admit-card {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: auto;
+}
+.admit-card-container .admit-card .title {
+  height: 40px;
+  background-color: #ab183d;
+  font-size: 18px;
+  color: #fff;
+}
+.admit-card-container .admit-card .content {
+  text-align: start;
+  padding: 0 50px;
+}

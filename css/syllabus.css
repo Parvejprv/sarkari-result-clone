@@ -1,0 +1,33 @@
+/* container section */
+
+.syllabus-container {
+  margin: 100px auto;
+  width: 900px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows:45px auto 100px;
+
+  /* background-color: lightblue; */
+  border: 1px solid #ab183d;
+}
+.syllabus-container .card-item {
+
+}
+.syllabus-container .syllabus {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: auto;
+}
+.syllabus-container .syllabus .title {
+  height: 40px;
+  background-color: #ab183d;
+  font-size: 18px;
+  color: #fff;
+}
+.syllabus-container .syllabus .content {
+  text-align: start;
+  padding: 0 50px;
+}

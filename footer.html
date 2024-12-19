@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .footer-container {
+      margin: 0;
+      padding: 0;
+      width: 1010px;
+      display: grid;
+      grid-template-columns: 300px 200px 500px;
+      grid-template-rows: 1fr;
+
+      grid-gap: 20px;
+    }
+    .ft1 {
+      background-color: aqua;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px auto;
+    }
+    .ft2 {
+      background-color: lightcoral;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px auto;
+    }
+    .ft3 {
+      background-color: lightgreen;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px auto;
+    }
+    .ft-title, .app-title, .more-title {
+      padding-left: 20px;
+      height: 50px;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      background-color: brown;
+      
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }   
+    .ft-content, .app-content, .more-content {
+      padding: 1vw;
+      
+      font-size: 1vw;
+
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+    } 
+    .ft-content a, .app-content a, .more-content a {
+      color: #555;
+      text-decoration: none;
+      cursor: pointer;
+    }  
+    .more-content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="footer-container">
+    <div class="footer-item ft1">
+      <div class="ft-title">Quick Links</div>
+      <div class="ft-content">
+        <div class="social social1">
+          <a href="#">Sarkari Result @X</a>
+        </div>
+        <div class="social social2">
+          <a href="#">Sarkari Result @Telegram</a>
+        </div>
+        <div class="social social3">
+          <a href="#">Sarkari Result @WhatsApp</a>
+        </div>
+        <div class="social social4">
+          <a href="#">Sarkari Result @Intagram</a>
+        </div>
+        <div class="social social5">
+          <a href="#">Sarkari Result @Threads</a>
+        </div>
+        <div class="social social6">
+          <a href="#">Sarkari Result @Facebook</a>
+        </div>
+        <div class="social social7">
+          <a href="#">Sarkari Result @LinkedIn</a>
+        </div>
+        <div class="social social8">
+          <a href="#">Sarkari Result @Youtube</a>
+        </div>
+        <div class="social social9">
+          <a href="#">All Boards Exams</a>
+        </div>
+        <div class="social social10">
+          <a href="#">Sarkari Result Contact Us</a>
+        </div>
+        <div class="social social11">
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-item ft2">
+      <div class="app-title">Apps</div>
+      <div class="app-content">
+        <div class="app app1">
+          <a href="#">Andriod App</a>
+        </div>
+        <div class="app app2">
+          <a href="#">Apple IOS App</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-item ft3">
+      <div class="more-title">More</div>
+      <div class="more-content">
+        <div class="more m-link1">
+          <a href="#">BPSC</a>
+        </div>
+        <div class="more m-link2">
+          <a href="#">UP-scholorship</a>
+        </div>
+        <div class="more m-link3">
+          <a href="#">UPSC</a>
+        </div>
+        <div class="more m-link4">
+          <a href="#">RPSC</a>
+        </div>
+        <div class="more m-link5">
+          <a href="#">UPPCS</a>
+        </div>
+        <div class="more m-link6">
+          <a href="#">Coast Guard</a>
+        </div>
+        <div class="more m-link7">
+          <a href="#">Delhi Dssb</a>
+        </div>
+        <div class="more m-link8">
+          <a href="#">HSSC</a>
+        </div>
+        <div class="more m-link9">
+          <a href="#">UPSSSC</a>
+        </div>
+        <div class="more m-link10">
+          <a href="#">IBPS</a>
+        </div>
+        <div class="more m-link11">
+          <a href="#">Air Force</a>
+        </div>
+        <div class="more m-link12">
+          <a href="#">Police Vacancy</a>
+        </div>
+        <div class="more m-link13">
+          <a href="#">CCC</a>
+        </div>
+        <div class="more m-link14">
+          <a href="#">SSC</a>
+        </div>
+        <div class="more m-link15">
+          <a href="#">Navy</a>
+        </div>
+        <div class="more m-link16">
+          <a href="#">Railway</a>
+        </div>
+        <div class="more m-link17">
+          <a href="#">TET</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
