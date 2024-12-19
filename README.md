@@ -27,16 +27,18 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/parvejprv/sarkari-result-clone.git
-
+       git clone https://github.com/parvejprv/sarkari-result-clone.git
+   ```
 2. **Open the project directory:**
 - Open that project folder where you clone this site.
 
 3. **Open index.html in a web browser:**
   ```
-  open index.html
+      open index.html
+  ```
 
-4. **Able to make changes locally:**
-- Here you can made your own changes into your system locally.
-
+3. **Open index.html in a web browser:**
+  ```
+      open index.html
+  ```
 
